@@ -1,1 +1,31 @@
-
+* {}
+.lang {}
+.lang select {}
+.lang select option {}
+.lang select #korea {}
+.lang select #english {}
+/* 로고영역 */
+h1 {}
+h1 a {}
+h1 a img {}
+/* 로그인 정보 입력칸  */
+#loginFrm {}
+#loginFrm fieldset {}
+#loginFrm fieldset label {}
+#loginFrm fieldset label input {}
+#loginFrm fieldset button {}
+/* 로그인 옵션 영역  */
+#loginFrm fieldset .login_option {}
+#loginFrm fieldset .login_option label {}
+#loginFrm fieldset .login_option label input {}
+#loginFrm fieldset .login_option a {}
+#loginFrm fieldset .login_option a span {}
+/* 아이디,비번찾기 회원가입 */
+.search {}
+.search a {}
+.search #id {}
+.search #pw {}
+.search #join {}
+.footer {}
+.footer a {}
+.footer p {}
