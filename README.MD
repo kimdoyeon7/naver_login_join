@@ -1,7 +1,7 @@
 <h1><23-03-14></h1>
 <h2>김도연</h2>
-<p>0314 / login.html완성</p>
 <p>0314<br>
+  / login.html완성<br>
   / login.html 수정(div class=login 추가)<br>
   / 언어변경포함 넓이(770px)추가, font-weight(800;)추가,글씨색(#fff)추가<
   / css 전체 완성
