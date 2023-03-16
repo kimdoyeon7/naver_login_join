@@ -3,3 +3,21 @@
 /* letter-spacing:-0.02em; font-weight:800;
     font-size 13px=0.813rem; 18px=1.125rem */
 /* #08a600 #8e8e8e(박스틀 등 연한 부분) #f5f6f7(바탕색) #eee(인증번호배경) #fff(글씨색)  */
+
+.box {
+    width:350px; margin:100px auto 0; padding:15px;
+    border:1px solid #8e8e8e; background-color:#eee;
+}
+.box p {font-size: 0.813rem;}
+.box .log_in {
+    display:block; width:100%; color:#fff; background-color:#08a600; font-weight:600;
+    padding:15px; margin:15px 0; text-align:center;
+}
+.box > a {}
+.box .bottom  {
+    display:flex; flex-flow:row nowrap; justify-content:space-between;
+}
+.box .bottom .right  {}
+.box .bottom .right a  {}
+.box .bottom a {font-size:0.813rem;}
+.box .bottom a:hover {text-decoration:underline;}
