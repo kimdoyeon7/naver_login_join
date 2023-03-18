@@ -10,5 +10,6 @@
 <p>03/15 join2 html 완성, css선택자 일부 작성</p>
 <p>03/17 join, index완성</p>
 <h2>최현아 : Html 완성 </h2>
-<p>CSS 명령어 입력해야함 ^ 3^</p>
+<p>CSS /완성</p>
+<p>CSS /피드백&수정완료</p>
 <hr>
