@@ -7,8 +7,14 @@ body {background-color:#f5f6f7;}
     flex-flow:column wrap;
 }
 /* 언어선택영역 */
-.login .lang {text-align:right;}
-.login .lang select {padding:5px 10px;}
+.login .lang {
+    text-align:right;
+}
+.login .lang select {
+    padding:5px 10px;
+    background-color:#fff;
+    border:1px solid #8e8e8e;
+}
 .login .lang select option {}
 .login .lang select #korea {}
 .login .lang select #english {}

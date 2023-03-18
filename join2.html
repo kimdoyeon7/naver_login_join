@@ -13,88 +13,70 @@
         <form action="#" method="get" id="joinFrm">
             <fieldset>
                 <legend class="skip"></legend>
-                <h1><img src="./images/logo.jpg" alt="naver"></h1>
-                <ul>
-                    <li>
-                        <h2>아이디</h2>
-                        <input type="text">
-                        <span>@naver.com</span>
-                    </li>
-                    <li>
-                        <h2>비밀번호</h2>
-                        <input type="text">
-                    </li>
-                    <li>
-                        <h2>비밀번호 재확인</h2>
-                        <input type="text">
-                    </li>
-                    <li>
-                        <h2>이름</h2>
-                        <p><input type="text"></p>
-                    </li>
-                    <li class="birth">
-                        <h2>생년월일</h2>
-                        <div class="birth_text">
-                            <p><input type="text" placeholder="년(4자)"></p>
-                            <p>
-                                <select name="month" id="month">
-                                    <option value="month">월</option>
-                                    <option value="month">1</option>
-                                    <option value="month">2</option>
-                                    <option value="month">3</option>
-                                    <option value="month">4</option>
-                                    <option value="month">5</option>
-                                    <option value="month">6</option>
-                                    <option value="month">7</option>
-                                    <option value="month">8</option>
-                                    <option value="month">9</option>
-                                    <option value="month">10</option>
-                                    <option value="month">11</option>
-                                    <option value="month">12</option>
-                                </select>
-                            </p>
-                            <p><input type="text" placeholder="일"></p>
-                        </div>
-                    </li>
-                    <li>
-                        <h2>성별</h2>
+                <a href="#"><img src="./images/logo.jpg" alt="naver"></a>
+                <dl>
+                    <dt>아이디</dt>
+                    <dd><input type="text"><span>@naver.com</span></dd>
+                    <dt>비밀번호</dt>
+                    <dd><input type="text"></dd>
+                    <dt>비밀번호 재확인</dt>
+                    <dd><input type="text"></dd>
+                    <dt>이름</dt>
+                    <dd><input type="text"></dd>
+                    <dt>생년월일</dt>
+                    <dd class="birth_text">
                         <p><input type="text" placeholder="년(4자)"></p>
                         <p>
-                            <select name="gender" id="gender">
-                                <option value="gender">성별</option>
-                                <option value="gender">남</option>
-                                <option value="gender">여</option>
+                            <select name="month" id="month">
+                                <option value="month">월</option>
+                                <option value="month">1</option>
+                                <option value="month">2</option>
+                                <option value="month">3</option>
+                                <option value="month">4</option>
+                                <option value="month">5</option>
+                                <option value="month">6</option>
+                                <option value="month">7</option>
+                                <option value="month">8</option>
+                                <option value="month">9</option>
+                                <option value="month">10</option>
+                                <option value="month">11</option>
+                                <option value="month">12</option>
                             </select>
                         </p>
-                    </li>
-                    <li>
-                        <h2>본인확인이메일</h2>
-                        <p><input type="text" placeholder="선택입력"></p>
-                    </li>
-                    <li>
-                        <h2>휴대전화</h2>
-                        <p>
-                            <select name="call" id="call">
-                                <option value="call">대한민국 +82</option>
-                                <option value="call">홍콩 +852</option>
-                            </select>
-                        </p>
-                        <p><input type="text"></p>
-                        <p>
-                            <input type="text" placeholder="전화번호 입력">
-                            <button type="submit" class="number_btn">인증번호 받기</button>
-                        </p>
-                        <p><input type="text" placeholder="인증번호 입력하세요"></p>
-                    </li>
-                </ul>
+                        <p><input type="text" placeholder="일"></p>
+                    </dd>
+                    <dt>성별</dt>
+                    <dd>
+                        <select name="gender" id="gender">
+                            <option value="gender">성별</option>
+                            <option value="gender">남</option>
+                            <option value="gender">여</option>
+                        </select>
+                    </dd>
+                    <dt>본인확인이메일<span>(선택)</span></dt>
+                    <dd><input type="text" placeholder="선택입력"></dd>
+                    <dt>휴대전화</dt>
+                    <dd>
+                        <select name="call" id="call">
+                            <option value="call">대한민국 +82</option>
+                            <option value="call">홍콩 +852</option>
+                        </select>
+                    </dd>
+                    <dd class="call_number">
+                        <input type="text" placeholder="전화번호 입력">
+                        <button type="submit" class="number_btn">인증번호 받기</button>
+                    </dd>
+                    <dd><input type="text" placeholder="인증번호 입력하세요"></dd>
+                </dl>
                 <button type="submit" class="join_btn">가입하기</button>
             </fieldset>
         </form>
+        <div class="f_nav">
+            <a href="#">이용약관</a>
+            <a href="#">개인정보처리방침</a>
+            <a href="#">책임의 한계와 법적고지</a> 
+            <a href="#">회원정보 고객센터</a>
+            <p>NAVER Copyright © NAVER Corp. All Rights Reserved.</p>
+        </div>
     </div>
 </body>
-<<<<<<< HEAD
-</html>
-
-=======
-</html>
->>>>>>> 9be28d7370bfef8faf8f37caa7e08d43b628446a
